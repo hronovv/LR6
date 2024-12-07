@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.1) 
+project(test)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=thread")
+set(SOURCES /Users/personal/Documents/453504/ОАиП/LR6/Task2/Task2.cpp)
+add_executable(test ${SOURCES}) 
